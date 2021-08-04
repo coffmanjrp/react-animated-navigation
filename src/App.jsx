@@ -22,8 +22,8 @@ function App() {
           </li>
         </ul>
         <button className="icon" onClick={() => setIsActive((prev) => !prev)}>
-          <div className="line line1"></div>
-          <div className="line line2"></div>
+          <div className="line line1" />
+          <div className="line line2" />
         </button>
       </nav>
     </div>
